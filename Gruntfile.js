@@ -5,17 +5,6 @@ module.exports = grunt => {
 
   grunt.initConfig({
 
-    sass: {
-      options: {
-        sourceMap: false
-      },
-      dist: {
-        files: {
-            'dist/css/main.css': 'sass/main.scss'
-        }
-      }
-    },
-
     postcss: {
       options: {
 
@@ -32,8 +21,8 @@ module.exports = grunt => {
           require('postcss-nested')(),
           require('pixrem')(), // add fallbacks for rem units
           require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-          //require('cssnano')(), // minify the result
           require('lost')(),
+          require('cssnano')(), // minify the result
         ]
       },
       dist: {
