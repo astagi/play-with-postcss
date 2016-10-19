@@ -17,8 +17,10 @@ module.exports = grunt => {
 
         processors: [
           require('postcss-sassy-import')(),
+          require('postcss-sassy-mixins')(),
           require('postcss-simple-vars')(),
           require('postcss-nested')(),
+          require('postcss-extend')(),
           require('pixrem')(), // add fallbacks for rem units
           require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
           require('lost')(),
