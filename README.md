@@ -1,6 +1,6 @@
 # Playing with PostCSS
 
-Some experiment with PostCSS
+Some experiments with PostCSS
 
 ## Install
 
@@ -11,3 +11,5 @@ Some experiment with PostCSS
 	$ grunt
 
 And then open index.html
+
+MIT license by @astagi
