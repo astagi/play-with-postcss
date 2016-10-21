@@ -5,6 +5,16 @@ module.exports = grunt => {
 
   grunt.initConfig({
 
+    watch: {
+      css: {
+        files: 'sass/*.scss',
+        tasks: ['postcss'],
+        options: {
+          livereload: true,
+        },
+      },
+    },
+
     postcss: {
       options: {
 
