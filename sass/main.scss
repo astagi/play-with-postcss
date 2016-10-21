@@ -1,4 +1,8 @@
 @import 'reset';
+@import 'mixins';
+@import 'constants';
+@import 'message';
+@import 'articles';
 
 .block {
     &__element {
@@ -21,3 +25,5 @@
   lost-column: 1/2 0;
   background-color: red;
 }
+
+h1 { @include headline($base-color, 12px);}

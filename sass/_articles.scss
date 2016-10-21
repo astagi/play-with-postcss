@@ -1,0 +1,12 @@
+.container { width: 100%; }
+
+
+article {
+  float: left;
+  width: calc(100% / 6);
+}
+
+aside {
+  float: right;
+  width: calc(100% / 3);
+}

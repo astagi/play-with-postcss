@@ -16,8 +16,10 @@
     "load-grunt-tasks": "^3.5.2",
     "lost": "^7.1.0",
     "pixrem": "^3.0.2",
+    "postcss-extend": "^1.0.5",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
+    "postcss-sassy-mixins": "^2.0.0",
     "postcss-scss": "^0.3.1",
     "postcss-simple-vars": "^3.0.0"
   }
