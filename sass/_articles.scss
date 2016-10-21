@@ -1,12 +1,12 @@
 .container { width: 100%; }
 
 
-article[role="main"] {
+article {
   float: left;
-  width: 600px / 960px * 100%;
+  width: calc(100% / 6);
 }
 
-aside[role="complementary"] {
+aside {
   float: right;
-  width: 300px / 960px * 100%;
+  width: calc(100% / 3);
 }
